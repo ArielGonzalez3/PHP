@@ -1,4 +1,8 @@
 
+body {
+	margin: 0px;
+}
+
 .title {
 	height: 3rem;
 	font-size: 2rem;
@@ -8,11 +12,11 @@
 	background-color: #014ba0;
 	color: #d9d5d5;
 	border-radius: 0 0 0.5rem 0.5rem;
-	box-shadow: 0 0.3rem 0.3rem 0 #c0c0c0;
+	box-shadow: 0 0.3rem 0.3rem 0.3rem #c0c0c0;
 }
 
 section {
-	margin: 2rem auto;
+	margin: 2rem;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 1rem;
